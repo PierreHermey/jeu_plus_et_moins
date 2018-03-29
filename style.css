@@ -11,26 +11,31 @@ body{
     margin-top: 10%;
     padding: 20px;
     width: 400px;
-    height: 220px;
+    height: 300px;
     border: grey 1px solid;
     display: flex;
     flex-direction: column;
     border-radius: 30px;
-    box-shadow: black 2px 2px 5px;
-    background-color: white;
+    border: none;
+    box-shadow: black -2px -2px 8px, black 2px 2px 8px;
+    background-color: #009DFF;
 }
 input {
     margin: auto;
-    height: 40px;
+    height: 50px;
+    width: 240px;
     border-radius: 10px;
-    color: white;
-    background-color: #151715;
+    color: #151715;
+    background-color: white;
     text-align: center;
+    border: none;
+    box-shadow: black -2px -2px 8px inset, black 2px 2px 8px inset;
 }
 
 button {
     margin: auto;
-    height: 30px;
+    height: 50px;
+    width: 170px;
     padding: 5px;
     background: none;
     border: #151715 2px solid;
@@ -38,13 +43,9 @@ button {
 }
 
 button:hover {
-    margin: auto;
-    height: 30px;
-    padding: 5px;
-    background: #151715;
     border: white 2px solid;
     color: white;
-    border-radius: 10px;
+    cursor: pointer;
 }
 
 
@@ -53,6 +54,7 @@ h1{
     font-family: 'Press Start 2P', cursive;
     font-size: 20px;
     font-weight: 800;
+    margin: 10px;
     
 }
 
@@ -69,6 +71,6 @@ p{
     font-family: "comic sans ms";
     font-weight: 500;
     font-size: 18px;
-    color: red;
+    color: white;
     margin: 5px;
 }
